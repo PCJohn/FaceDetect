@@ -22,8 +22,8 @@ CONF_THRESH = 0.99      #Confidence threshold to mark a window as a face
 X_STEP = 10     #Horizontal slide for the sliding window
 Y_STEP = 10     #Vertical stride for the sliding window
 WIN_MIN = 40    #Minimum sliding window size
-MIN_MAX = 100   #Maximum sliding window size
-WIN_SIZE = 10   #Stride to increase the sliding window
+WIN_MAX = 100   #Maximum sliding window size
+WIN_STRIDE = 10   #Stride to increase the sliding window
 
 #Build the net in the session
 def build_net(sess):
