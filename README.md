@@ -9,7 +9,7 @@ Requirements:
 
 Network topology:
 
-The network consists of 3 convolution layers:
+The network consists of 3 convolution layers
 
     Input: 32x32 black and white image
     1. Layer 1: 5x5 convolutions
