@@ -18,7 +18,7 @@ The network consists of 3 convolution layers
                 16 feature maps
     3. Layer 3: 3x3 feature maps
                 32 feature maps
-    The output of this is 32 4x4 feature maps
+    Layer 3 outputs 32 4x4 feature maps
     4. Layer 4: Fully connected layer
                 600 units
     5. Layer 5: Softmax layer
