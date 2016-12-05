@@ -65,3 +65,4 @@ The repo includes a pre-trained model: face_model. This can directly be used for
 Demos with other images can be seen here: <youtube link>
 
 Output of demo.py:
+![Alt text]("face detect demo result.png"?raw=true)
