@@ -57,7 +57,7 @@ The final dataset consists of the 32,000 images from each class (positive and ne
 
 Localization:
 
-The module uses a simple sliding window localizer. The input image is reshaped to (300,300). Square windows of side lengths 40,50... 100 are slid along the image. Each sub image seen through the window is reshaped to (32,32) and fed to the network. If the sub image is a face with a minimum confidence of 0.99, the window is marked in the mask. After running all different sized windows on the image, the final mask is blurred with a 50x50 Gaussian filter and binarized. This final binarized mask is used to extract only the faces from the image. The localizer returns an image with only the faces and the raw mask (before blurring and binarization).
+The module uses a simple sliding window localizer. The input image is reshaped to (300,300). Square windows of side lengths 40,50... 100 are slid along the image. Each sub image seen through the window is reshaped to (32,32) and fed to the network. If the sub image is a face with a minimum confidence of 0.99, the window is marked in the mask. After running all different sized windows on the image, the final mask is blurred with a 50x50 Gaussian filter and binarized. This final binarized mask is used to extract only the faces from the image. The localizer returns two images: an image with only the faces and the raw mask (before blurring and binarization).
 
 Demo:
 
