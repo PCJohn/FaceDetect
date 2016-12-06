@@ -62,7 +62,7 @@ The module uses a simple sliding window localizer. The input image is reshaped t
 **Demo**
 
 The repo includes a pre-trained model: face_model. This can directly be used for localization. Sample usage of this model with FaceDetect.py can be seen in demo.py. Running the demo should display the result of running the localizer on demo.jpg.
-Demos with other images can be seen here: <youtube link>
+Demos with other images can be seen here: https://youtu.be/N4GIGVnyNBo 
 
 Output of demo.py:
 ![Alt text](demo_result.png?raw=true)
